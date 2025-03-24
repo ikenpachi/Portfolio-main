@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Igor Ribeiro">
+    <meta name="description" content="Portfólio do desenvolvedor Lucas Rocha">
+    <meta name="keywords" content="portfolio, html, front-end, desenvolvimento, css, javascript">
+    <title>Igor Ribeiro</title>
+    <link rel="icon" href="./assets/notebook.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <header>
+    <nav data-menu="suave">
+       <p><a href="#home">&lsaquo;IR/&rsaquo;</a></p>
+       <button data-menu="button" aria-controls="menu"></button>
+      <ul data-menu="list" id="menu">
+        <a href="#home">
+        <li>Home</li>
+      </a>
+        <a href="#sobre">
+          <li>Sobre</li>
+        </a>
+        <a href="#experiencia">
+        <li>Experiência</li>
+      </a>
+      <a href="#projetos">
+        <li>Projetos</li>
+      </a>
+      </ul>
+    </nav>
+  </header>
+
+    <main>
+      <section class="principal" id="home" >
+        <div class="principal__left">
+          <h1>Olá, eu sou</h1>
+            <span class="principal__sentence"></span>
+            <span class="principal__input-cursor"></span>
+          <h1>um entusiasta por soluções tecnológicas.</h1>
+          <div class="principal__botao">
+            <a href="https://www.linkedin.com/in/igor-sampaio-ribeiro-14b80b1a2/" target="_blank">
+              <div class="principal__botao-linkedin">
+                <img src="./assets/linkedin.png" alt="" />
+                <p>LinkedIn</p>
+              </div>
+            </a>
+            <a href="https://github.com/igor-s-ribeiro" target="_blank">
+              <div class="principal__botao-github">
+                <img src="./assets/github.png" alt="" />
+                <p>Github</p>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="principal__right">
+          <img src="./assets/coding.png" alt="Ilustração" data-tilt>
+        </div>
+        
+        <div class="scroll" data-menu="suave"><a href="#sobre" > <p> scroll down </p> <img src="./assets/scroll.png" alt="Setinha indicando para rolar a tela para baixo"></a></div>
+      </section>
+      <section class="sobre-mim" id="sobre" data-anime="js-scroll">
+        <div class="sobre-mim__foto">
+          <img src="./assets/eu-cartoon.png" alt="Uma imagem que se parece comigo" />
+        </div>
+        <div class="sobre-mim__descricao" >
+          <h1>Sobre mim</h1>
+          <h2>Uberaba, Minas Gerais</h2>
+          <p>
+            Meu nome é Igor Ribeiro, tenho 24 anos e me formei em Sistemas de Informação pela FACTHUS - Faculdade de Talentos Humanos, em 2024. Durante minha jornada acadêmica, mergulhei profundamente no universo da tecnologia e da inovação, explorando diferentes aspectos do desenvolvimento de software e da análise de dados. Estou entusiasmado em aplicar essa bagagem de conhecimento e experiência na construção de soluções inovadoras como desenvolvedor de software, buscando constantemente desafios que me permitam crescer profissionalmente e contribuir significativamente para o campo da tecnologia.
+          </p>
+          <div class="sobre-mim__descricao-buttons">
+            <a href="./assets/CV - IGOR SAMPAIO RIBEIRO.pdf" download="">
+              <div class="sobre-mim__descricao-buttons-curriculo">
+                <img src="./assets/download-da-nuvem.png" alt="" />
+                <p>Currículo</p>
+              </div>
+            </a>
+            <a
+              href="mailto: igorsampaio10@outlook.com?subject=Igor, vim pelo seu portfólio! :)"
+              target="_blank"
+            >
+              <div class="sobre-mim__descricao-buttons-email">
+                <img src="./assets/email.png" alt="" />
+                <p>E-mail</p>
+              </div>
+            </a>
+          </div>
+          
+        </div>
+      </section>
+      <section class="experiencia" id="experiencia" data-anime="js-scroll">
+        <h1>Experiência</h1>
+        <div class="experiencia__wrapper">
+          <section class="experiencia__lugares">
+            <ul data-tab="menu">
+              <li>&#128064&#128064</li>
+              <li>Black & Decker</li>
+              <li>Potenza - Correios</li>
+              <li>DuBrasil Soluções</li>
+              <li>DuBrasil Soluções</li>
+              <li>MegaData</li>
+            </ul>
+          </section>
+          <div class="experiencia__descricao" data-tab="content">
+            <section data-anime="show-right">
+              <h2>Em busca da minha primeira experiência "oficial" como desenvolvedor :)</h2>
+              <p class="experiencia__descricao-local">Quem sabe na sua empresa?</p>
+              <p>Estou disponível para bater um papo, você pode entrar em contato via whatsapp +55 (34) 98889-4424 &#10024</p>
+            </section>
+            <section data-anime="show-right">
+            <h2>Estagiário em Logística</h2>
+            <span>2015 - 2017</span>
+            <p class="experiencia__descricao-local">Gerenciamento de redes de distribuições.</p>
+            <p>
+              Minha introdução ao mercado de trabalho se deu na empresa Black & Decker, onde ingressei como estagiário 
+              por intermédio da FETI - Fundação de Ensino Técnico Intensivo. Durante esse período, desempenhei o papel 
+              de auxiliar administrativo na área de logística. Na Black & Decker, tive a valiosa oportunidade de não 
+              apenas aplicar os conhecimentos teóricos adquiridos no curso Técnico Administrativo, mas também de aprimorar 
+              minhas habilidades práticas. Trabalhar em uma área tão dinâmica como a logística me proporcionou uma visão holística do 
+               funcionamento interno de uma grande empresa, além de desenvolver minha capacidade de lidar com desafios e 
+               buscar soluções eficientes para questões do cotidiano corporativo.
+            </p>
+          </section>
+          <section data-anime="show-right">
+            <h2>Auxiliar Operacional</h2>
+            <span>2018 - 2019</span>
+            <p class="experiencia__descricao-local">CDD - Correios</p>
+            <p>
+              Desempenhei o cargo de auxiliar operacional na empresa Potenza, atuando no Centro de Distribuição 
+              Domiciliária (CDD) dos Correios, por meio de uma parceria terceirizada, de forma contratual. Nesse ambiente dinâmico e 
+              desafiador, fui exposto a um contexto operacional intenso, lidando diretamente com a logística de 
+              distribuição. Minha atuação consistia em contribuir para a eficiência do processo de distribuição de 
+              encomendas, onde aprendi a importância da organização meticulosa e da gestão ágil para garantir o correto 
+              fluxo de materiais. Essa experiência me permitiu desenvolver habilidades de resolução de problemas em tempo 
+              real e aprimorar minha capacidade de trabalhar sob pressão, enquanto aprendia sobre a logística operacional 
+              em um dos setores fundamentais para a cadeia de entrega de serviços.
+            </p>
+          </section>
+          <section data-anime="show-right">
+            <h2>Analista de Suporte Técnico I – II</h2>
+            <span>2019 - 2021</span>
+            <p class="experiencia__descricao-local">Suporte Secullum</p>
+            <p>
+              Na empresa DuBrasil Soluções, atuei no setor de software Secullum, desempenhando a função de suporte 
+              técnico e implantador externo. Minha responsabilidade era oferecer suporte direto aos usuários, garantindo o 
+              pleno funcionamento e a eficácia dos softwares Secullum. Além disso, como implantador externo, liderei a 
+              implementação dessas soluções em diferentes ambientes, colaborando diretamente com os clientes para garantir 
+              uma transição suave e eficiente para as novas tecnologias.Nessa posição, desenvolvi habilidades sólidas de 
+              comunicação, resolução de problemas e gerenciamento de tempo, ao trabalhar em um ambiente onde a excelência 
+              no atendimento ao cliente e a precisão na implementação eram fundamentais para o sucesso dos projetos.
+            </p>
+          </section>
+          <section data-anime="show-right">
+            <h2>Analista de Sistemas Computacionais II</h2>
+            <span>2021 - 2021</span>
+            <p class="experiencia__descricao-local">TGA Sistemas</p>
+            <p>
+              Na mesma empresa, tive a oportunidade enriquecedora de migrar para o setor TGA, um sistema ERP, 
+              onde desempenhei o papel de suporte interno. Minha principal responsabilidade era identificar e 
+              solucionar bugs e erros dentro do sistema, garantindo seu pleno funcionamento e confiabilidade. 
+              Além disso, forneci suporte direto aos usuários, respondendo a consultas, oferecendo orientações e 
+              instruções detalhadas para maximizar a utilização eficaz do sistema. Trabalhar nesse ambiente me permitiu 
+              aprofundar meu conhecimento sobre o funcionamento interno de um sistema ERP e aprimorar minha capacidade 
+              de solucionar problemas de forma eficiente e proativa.
+            </p>
+          </section>
+          <section data-anime="show-right">
+            <h2>Suporte Call Center</h2>
+            <span>2023 - Atual</span>
+            <p class="experiencia__descricao-local">Web Services</p>
+            <p>
+              Atualmente, sou membro da equipe de Webservices do WebISS na empresa MEGADATA, desempenhando o 
+              papel de Suporte Call Center. Minha rotina envolve a gestão e aprimoramento dos Webservices do WebISS, 
+              trabalhando diretamente na manutenção, desenvolvimento e aperfeiçoamento dessa importante parte do sistema. 
+              Minhas responsabilidades incluem a análise detalhada dos requisitos, a implementação de melhorias, 
+              garantindo a integridade, segurança e eficiência dos serviços web oferecidos.
+            </p>
+          </section>
+        </div>
+        </section>
+        </div>
+      </section>
+      <section class="projetos" id="projetos" data-anime="js-scroll">
+        <h1>Projetos</h1>
+        <div class="projetos__wrapper">
+          <section class="projetos__card">
+            <a href="https://igorsribeiro.netlify.app/" target="_blank">
+            <img src="./assets/portfolio-meu.png" alt="Capa do Portfólio" class="projeto-img"/>
+          </a>
+            <h2>Portfólio</h2>
+            <p>
+              Meu primeiro portfólio, desenvolvido durante a faculdade.
+            </p>
+            <span>Tecnologias usadas no projeto: HTML, CSS e JS.</span>
+            <a href="https://igorsribeiro.netlify.app/" target="_blank">
+              <div class="projetos__card-button">
+                <img src="./assets/link.png" alt="">
+                Visualizar
+              </div>
+            </a>
+          </section>
+          <section class="projetos__card">
+            <a href="https://www.instagram.com/p/CskUsMmMcR9HEajcwK5JuRjhxsjxSXNKDtgMYg0/?igsh=MWNjcmk3MG9uYzV0aQ==" target="_blank">
+            <img src="./assets/robo-python.png" alt="" class="projeto-img"/>
+            </a>
+            <h2>Robô</h2>
+            <p>
+              Primeiro desenvolvimento robótico, feito em Python.
+            </p>
+            <span>Tecnologias usadas no projeto: Python, Raspberry.</span>
+            <a href="https://www.instagram.com/p/CskUsMmMcR9HEajcwK5JuRjhxsjxSXNKDtgMYg0/?igsh=MWNjcmk3MG9uYzV0aQ==" target="_blank">
+              <div class="projetos__card-button">
+              <img src="./assets/link.png" alt="">
+              Visualizar
+            </div>
+            </a>
+          </section>
+          <section class="projetos__card">
+            <a href="https://www.linkedin.com/posts/igor-sampaio-ribeiro-14b80b1a2_projetointegrador-desenvolvimentomobile-unifacthus-activity-7079883795197214720-clCU?utm_source=share&utm_medium=member_desktop" target="_blank">
+            <img src="./assets/ready-to-play.jpg" alt="" class="projeto-img"/>
+            </a>
+            <h2>Ready To Play</h2>
+            <p>
+              Aplicativo para locação de arenas esportivas.
+            </p>
+            <span>Tecnologias usadas no projeto: Dart, Flutter.</span>
+            <a href="https://www.linkedin.com/posts/igor-sampaio-ribeiro-14b80b1a2_projetointegrador-desenvolvimentomobile-unifacthus-activity-7079883795197214720-clCU?utm_source=share&utm_medium=member_desktop" target="_blank">
+              <div class="projetos__card-button">
+                <img src="./assets/link.png" alt="">
+                Visualizar
+              </div>
+            </a>
+          </section>
+          <section class="projetos__card">
+            <a href="https://github.com/igor-s-ribeiro/Chess-Project" target="_blank">
+            <img src="./assets/chess.jpg" alt="" class="projeto-img"/>
+          </a>
+            <h2>Projeto Xadrez</h2>
+            <p>
+              Projeto de desenvolvimento de jogos. 
+            </p>
+            <span>Tecnologias usadas no projeto: C#, Unity.</span>
+            <a href="https://github.com/igor-s-ribeiro/Chess-Project" target="_blank">
+              <div class="projetos__card-button">
+                <img src="./assets/link.png" alt="">
+                Visualizar
+              </div>
+            </a>
+   
+          </section>
+        </div>
+      </section>
+
+      <footer>
+        <p>Desenvolvido com muito <img src="./assets/heart.png" alt="Ícone de coração"> por</p><a href="https://www.linkedin.com/in/igor-sampaio-ribeiro-14b80b1a2/" target="_blank"><span> Igor Ribeiro</span></a>
+      </footer>
+    </main>
+
+    <script src="./js/script.js" type="module"></script>
+    <script src="./js/modules/vanilla-tilt.min.js"></script>
+  </body>
+</html>
