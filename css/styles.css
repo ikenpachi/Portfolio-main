@@ -21,13 +21,14 @@ p {
 main {
   color: #c4c4c4;
   flex: 1; 
+  padding-bottom: 5rem; 
 }
 
 
 footer {
   padding: 2rem 0;
   text-align: center;
-  margin-top: auto; /* Isso faz com que o footer vá para a parte inferior */
+  margin-top: auto; 
 }
 
 footer img {
@@ -72,7 +73,10 @@ footer span:hover {
   transform: translate3d(0, 0, 0);
 }
 
-.projetos,
+.projetos {
+  margin-bottom: 14rem; /* aumenta o espaçamento abaixo da seção de projetos */
+}
+
 .sobre-mim {
   background-color: #151515;
   z-index: 0;
