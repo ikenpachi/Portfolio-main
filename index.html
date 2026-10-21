@@ -8,7 +8,7 @@
   <meta name="author" content="Igor Ribeiro">
   <meta name="description" content="Igor Ribeiro / Corrosivo. Cybersecurity, Ethical Hacking, Offensive Security e Red Team. Minas Gerais, Brasil.">
   <meta name="keywords" content="Igor Ribeiro, Corrosivo, cybersecurity, ethical hacking, red team, Python, Linux">
-  <meta name="theme-color" content="#F0EDE4">
+  <meta name="theme-color" content="#EAF4F5">
   <meta property="og:title" content="Corrosivo / Igor Ribeiro">
   <meta property="og:description" content="Cybersecurity, Ethical Hacking e Red Team. Projetos e trajetória de Igor Ribeiro.">
   <meta property="og:type" content="website">
@@ -19,19 +19,19 @@
   <link rel="canonical" href="https://ikenpachi.github.io/Portfolio-main/">
   <title>Corrosivo / Igor Ribeiro — Cybersecurity</title>
   <script src="./js/theme.js"></script>
-  <link rel="icon" href="./assets/notebook.png">
+  <link rel="icon" href="./assets/favicon.svg" type="image/svg+xml">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
 
-  <link rel="stylesheet" href="./css/styles.css" />
+  <link rel="stylesheet" href="./css/styles.css?v=b1e43a7e9b74" />
 </head>
 
 <body>
   <a class="skip-link" href="#home">Pular para o conteúdo</a>
   <header>
     <nav data-menu="suave" aria-label="Navegação principal">
-      <p class="brand"><a href="#home">CORROSIVO<span>●</span></a></p>
+      <p class="brand"><a href="#home"><span class="brand-symbol" aria-hidden="true">[c]</span> CORROSIVO<span class="brand-dot">●</span></a></p>
       <ul data-menu="list" id="menu">
         <li><a href="#home">01 / Início</a></li><li><a href="#sobre">02 / Sobre</a></li>
         <li><a href="#experiencia">03 / Experiência</a></li><li><a href="#projetos">04 / Projetos</a></li>
@@ -42,49 +42,58 @@
   </header>
 
   <main>
-    <section class="principal" id="home">
+    <section class="principal" id="home" aria-labelledby="hero-title">
       <div class="principal__left">
-        <p class="eyebrow"><i class="status-dot" aria-hidden="true"></i> SYS.INFO / MINAS GERAIS, BR</p>
-        <h1><span class="principal__sentence">Igor Ribeiro</span><span class="nickname">[ CORROSIVO ]</span></h1>
-        <p class="hero-role">Cybersecurity.<br>Curiosidade ofensiva<span class="accent">.</span></p>
+        <p class="eyebrow"><i class="status-dot" aria-hidden="true"></i> MINAS GERAIS, BRASIL / SYS.01</p>
+        <p class="hero-identity">CORROSIVO <span>/ DIGITAL IDENTITY</span></p>
+        <h1 id="hero-title"><span class="principal__sentence">Igor Ribeiro<span class="accent">.</span></span></h1>
+        <p class="hero-role">Cybersecurity.<br><span>Segurança Ofensiva.</span></p>
         <p class="hero-description">Ethical Hacking / Offensive Security / Red Team.<br>Explorando sistemas. Conectando conhecimento.</p>
-        <div class="principal__botao">
-          <a href="https://www.linkedin.com/in/igor-ribeiro-14b80b1a2/" target="_blank" rel="noopener noreferrer">
-            <div class="principal__botao-linkedin">
-              <img src="./assets/linkedin.png" alt="" />
-              <p>LinkedIn</p>
-            </div>
-          </a>
-          <a href="https://github.com/ikenpachi" target="_blank" rel="noopener noreferrer">
-            <div class="principal__botao-github">
-              <img src="./assets/github.png" alt="" />
-              <p>Github</p>
-            </div>
-          </a>
+        <div class="hero-actions" data-menu="suave">
+          <a class="button button-primary" href="#projetos">Explorar projetos <span aria-hidden="true">↗</span></a>
+          <a class="button button-secondary" href="mailto:igorsampaio10@outlook.com">Vamos conversar <span aria-hidden="true">↗</span></a>
+        </div>
+        <div class="hero-socials">
+          <a href="https://github.com/ikenpachi" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+          <a href="https://www.linkedin.com/in/igor-ribeiro-14b80b1a2/" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a>
+          <span>LINUX / CODE / SECURITY</span>
         </div>
       </div>
-      <div class="principal__right" aria-label="Painel de identidade profissional">
-        <div class="sys-panel"><div class="panel-top"><span>SECURITY / RESEARCH</span><span>IR—01</span></div>
-        <div class="orbital" aria-hidden="true"><div class="orbit-ring"></div><span class="orbital-cross">+</span></div>
-        <div class="panel-title">CORROSIVO<span class="accent">_</span></div>
-        <div class="sys-table"><p><span>IDENTITY</span><b>IGOR RIBEIRO</b></p><p><span>FOCUS</span><b>RED TEAM</b></p><p><span>ENVIRONMENT</span><b>LINUX / CODE</b></p></div>
-        <div class="panel-bottom"><span>● KNOWLEDGE IN PROGRESS</span><span>[01:04]</span></div></div>
+      <div class="principal__right">
+        <div class="mesh-topline"><span><i class="status-dot" aria-hidden="true"></i> EARTH / LUNAR SYSTEM</span><span>01 / IR</span></div>
+        <div class="canvas-stage">
+          <img class="canvas-fallback" src="./assets/globe-fallback.svg" width="600" height="560" alt="" aria-hidden="true">
+          <canvas data-cyber-canvas aria-hidden="true"></canvas>
+          <span class="mesh-coordinate coordinate-a" aria-hidden="true">EARTH / 01</span>
+          <span class="mesh-coordinate coordinate-b" aria-hidden="true">MOON / 02</span>
+          <div class="mesh-tag"><span class="mesh-tag-mark" aria-hidden="true">⌘</span><div>GLOBAL PERSPECTIVE<span>CURIOSIDADE SEM FRONTEIRAS</span></div></div>
+        </div>
+        <div class="mesh-bottomline"><span class="mesh-hint"><span class="pointer-hint">MOVA O CURSOR PARA GIRAR</span><span class="touch-hint">TERRA / LUA · EM ÓRBITA</span></span><button data-canvas-toggle type="button" aria-label="Pausar rotação do globo" aria-pressed="false" hidden>Ⅱ PAUSAR</button></div>
       </div>
-
-      <div class="scroll" data-menu="suave"><a href="#sobre">
-          <p> EXPLORAR / ↓ </p> <img src="./assets/scroll.png" alt="Seta indicando para rolar a tela para baixo">
-        </a></div>
+      <div class="hero-baseline"><span>SEGURANÇA / DESENVOLVIMENTO / INFRAESTRUTURA</span><a href="#sobre">CONTINUE EXPLORANDO <span aria-hidden="true">↓</span></a></div>
     </section>
     <section class="sobre-mim" id="sobre" data-anime="js-scroll">
       <div class="sobre-mim__foto">
-        <img src="./assets/eu-cartoon.jpeg" style="height: 300px;width: 300px" alt="Retrato ilustrado de Igor Ribeiro" loading="lazy" width="300" height="300" />
+        <img src="./assets/eu-cartoon.jpeg" alt="Retrato ilustrado de Igor Ribeiro" loading="lazy" width="300" height="300" />
       </div>
       <div class="sobre-mim__descricao">
         <p class="eyebrow">02 / ABOUT.ME</p><h2 class="section-title">Por trás do terminal<span class="accent">.</span></h2>
         <h3>Minas Gerais, Brasil</h3>
-        <p>Sou Igor Ribeiro, também conhecido como Corrosivo. Meu foco está em Cybersecurity, Ethical Hacking, Offensive Security e Red Team. Tenho formação em pós-graduação e interesse em entender como sistemas funcionam, onde falham e como protegê-los.</p>
+        <p>Sou Igor Ribeiro, também conhecido como Corrosivo. Meu foco está em Cybersecurity, Ethical Hacking, Offensive Security e Red Team. Tenho interesse em entender como sistemas funcionam, onde falham e como protegê-los.</p>
         <p>Desenvolvimento, infraestrutura de TI, Segurança da Informação e LGPD fazem parte do meu universo de estudo e prática.</p>
-        <dl class="toolkit"><div><dt>CODE</dt><dd>Python / C# / Node.js</dd></div><div><dt>DATA</dt><dd>PostgreSQL / Firebird / Microsoft Access<br>pgAdmin / DBeaver</dd></div><div><dt>ENV</dt><dd>Docker / Kali Linux / Arch Linux / VS Code</dd></div></dl>
+        <div class="about-knowledge">
+          <div class="skills-block" aria-labelledby="skills-title"><h3 class="subsection-label" id="skills-title">TOOLKIT / COMPETÊNCIAS</h3>
+            <dl class="toolkit">
+              <div><dt><span aria-hidden="true">01</span> Desenvolvimento</dt><dd><span>Python</span><span>C#</span><span>Node.js</span></dd></div>
+              <div><dt><span aria-hidden="true">02</span> Dados &amp; ferramentas</dt><dd><span>PostgreSQL</span><span>Firebird</span><span>Microsoft Access</span><span>pgAdmin</span><span>DBeaver</span></dd></div>
+              <div><dt><span aria-hidden="true">03</span> Ambiente &amp; infraestrutura</dt><dd><span>Docker</span><span>Kali Linux</span><span>Arch Linux</span><span>VS Code</span></dd></div>
+            </dl>
+          </div>
+          <div class="education-block" aria-labelledby="education-title"><h3 class="subsection-label" id="education-title">EDUCATION / FORMAÇÃO</h3>
+            <div class="education-item"><span class="education-type">PÓS-GRADUAÇÃO / FIAP</span><h4>Offensive Cyber Security — Red Team Operations</h4><p><time datetime="2024-02">Fev. 2024</time> — <time datetime="2025-02">Fev. 2025</time></p></div>
+            <div class="education-item"><span class="education-type">BACHARELADO / FACTHUS</span><h4>Sistemas de Informação</h4><p><time datetime="2020">2020</time> — <time datetime="2023">2023</time></p></div>
+          </div>
+        </div>
         <div class="sobre-mim__descricao-buttons">
           <a href="./assets/CV - IGOR SAMPAIO RIBEIRO.pdf" download="">
             <div class="sobre-mim__descricao-buttons-curriculo">
@@ -102,111 +111,155 @@
 
       </div>
     </section>
-    <section class="experiencia" id="experiencia" data-anime="js-scroll">
-      <p class="eyebrow">03 / EXPERIENCE.LOG</p><h2 class="section-title">Trajetória<span class="accent">.</span></h2>
-      <div class="experiencia__wrapper">
-        <section class="experiencia__lugares">
-          <ul data-tab="menu">
-            <li>Cybersecurity</li>
-            <li>Black & Decker</li>
-            <li>Potenza - Correios</li>
-            <li>DuBrasil Soluções</li>
-            <li>DuBrasil Soluções</li>
-            <li>MegaData</li>
-          </ul>
-        </section>
-        <div class="experiencia__descricao" data-tab="content">
-          <section data-anime="show-right">
-            <h2>Foco em Cybersecurity e Red Team</h2>
-            <p class="experiencia__descricao-local">Ethical Hacking / Offensive Security</p>
-            <p>Para conversar sobre tecnologia e segurança, entre em contato pelo e-mail <a href="mailto:igorsampaio10@outlook.com">igorsampaio10@outlook.com</a>.</p>
-          </section>
-          <section data-anime="show-right">
-            <h2>Estagiário em Logística</h2>
-            <span>2015 - 2017</span>
-            <p class="experiencia__descricao-local">Gerenciamento de redes de distribuições.</p>
-            <p>
-              Minha introdução ao mercado de trabalho se deu na empresa Black & Decker, onde ingressei como estagiário
-              por intermédio da FETI - Fundação de Ensino Técnico Intensivo. Durante esse período, desempenhei o papel
-              de auxiliar administrativo na área de logística. Na Black & Decker, tive a valiosa oportunidade de não
-              apenas aplicar os conhecimentos teóricos adquiridos no curso Técnico Administrativo, mas também de
-              aprimorar
-              minhas habilidades práticas. Trabalhar em uma área tão dinâmica como a logística me proporcionou uma visão
-              holística do
-              funcionamento interno de uma grande empresa, além de desenvolver minha capacidade de lidar com desafios e
-              buscar soluções eficientes para questões do cotidiano corporativo.
-            </p>
-          </section>
-          <section data-anime="show-right">
-            <h2>Auxiliar Operacional</h2>
-            <span>2018 - 2019</span>
-            <p class="experiencia__descricao-local">CDD - Correios</p>
-            <p>
-              Desempenhei o cargo de auxiliar operacional na empresa Potenza, atuando no Centro de Distribuição
-              Domiciliária (CDD) dos Correios, por meio de uma parceria terceirizada, de forma contratual. Nesse
-              ambiente dinâmico e
-              desafiador, fui exposto a um contexto operacional intenso, lidando diretamente com a logística de
-              distribuição. Minha atuação consistia em contribuir para a eficiência do processo de distribuição de
-              encomendas, onde aprendi a importância da organização meticulosa e da gestão ágil para garantir o correto
-              fluxo de materiais. Essa experiência me permitiu desenvolver habilidades de resolução de problemas em
-              tempo
-              real e aprimorar minha capacidade de trabalhar sob pressão, enquanto aprendia sobre a logística
-              operacional
-              em um dos setores fundamentais para a cadeia de entrega de serviços.
-            </p>
-          </section>
-          <section data-anime="show-right">
-            <h2>Analista de Suporte Técnico I – II</h2>
-            <span>2019 - 2021</span>
-            <p class="experiencia__descricao-local">Suporte Secullum</p>
-            <p>
-              Na empresa DuBrasil Soluções, atuei no setor de software Secullum, desempenhando a função de suporte
-              técnico e implantador externo. Minha responsabilidade era oferecer suporte direto aos usuários, garantindo
-              o
-              pleno funcionamento e a eficácia dos softwares Secullum. Além disso, como implantador externo, liderei a
-              implementação dessas soluções em diferentes ambientes, colaborando diretamente com os clientes para
-              garantir
-              uma transição suave e eficiente para as novas tecnologias.Nessa posição, desenvolvi habilidades sólidas de
-              comunicação, resolução de problemas e gerenciamento de tempo, ao trabalhar em um ambiente onde a
-              excelência
-              no atendimento ao cliente e a precisão na implementação eram fundamentais para o sucesso dos projetos.
-            </p>
-          </section>
-          <section data-anime="show-right">
-            <h2>Analista de Sistemas Computacionais II</h2>
-            <span>2021 - 2021</span>
-            <p class="experiencia__descricao-local">TGA Sistemas</p>
-            <p>
-              Na mesma empresa, tive a oportunidade enriquecedora de migrar para o setor TGA, um sistema ERP,
-              onde desempenhei o papel de suporte interno. Minha principal responsabilidade era identificar e
-              solucionar bugs e erros dentro do sistema, garantindo seu pleno funcionamento e confiabilidade.
-              Além disso, forneci suporte direto aos usuários, respondendo a consultas, oferecendo orientações e
-              instruções detalhadas para maximizar a utilização eficaz do sistema. Trabalhar nesse ambiente me permitiu
-              aprofundar meu conhecimento sobre o funcionamento interno de um sistema ERP e aprimorar minha capacidade
-              de solucionar problemas de forma eficiente e proativa.
-            </p>
-          </section>
-          <section data-anime="show-right">
-            <h2>Suporte Call Center</h2>
-            <span>2023 - 2024</span>
-            <p class="experiencia__descricao-local">Web Services</p>
-            <p>
-              Atuei na equipe de Webservices do WebISS na MEGADATA, desempenhando o papel de Suporte Call Center. Minha
-              rotina envolvia a gestão e aprimoramento dos Webservices do WebISS, trabalhando diretamente na manutenção,
-              desenvolvimento e aperfeiçoamento dessa parte essencial do sistema.
-
-              Minhas responsabilidades incluíam a análise detalhada dos requisitos, a implementação de melhorias e a
-              garantia da integridade, segurança e eficiência dos serviços web oferecidos.
-            </p>
-          </section>
-        </div>
+    <section class="experiencia" id="experiencia" data-anime="js-scroll" aria-labelledby="experience-title">
+      <div class="experience-heading">
+      <p class="eyebrow">03 / EXPERIENCE.LOG</p>
+      <h2 class="section-title" id="experience-title">Trajetória profissional<span class="accent">.</span></h2>
+      <p class="experience-intro">Da atuação administrativa e operacional ao suporte, desenvolvimento e supervisão de TI. Uma trajetória com foco atual em Cybersecurity, Offensive Security e Red Team.</p>
       </div>
+      <ol class="experience-timeline" aria-label="Histórico profissional, do mais recente ao mais antigo">
+        <li class="experience-company">
+          <h3>Bravo - Serviços Logísticos</h3>
+          <article class="experience-role" aria-labelledby="role-bravo">
+            <h4 id="role-bravo">Analista de suporte de TI</h4>
+            <p class="experience-period"><time datetime="2026-02">Fev. 2026</time> — <time datetime="2026-10">Out. 2026</time></p>
+            <p class="experience-location">Uberaba, Minas Gerais, Brasil</p>
+            <details>
+              <summary>Atividades e ferramentas</summary>
+              <div class="experience-activities">
+                <ul>
+                  <li>Atendimento Help Desk pelo GLPI e via Teams, com abertura, acompanhamento e solução de chamados.</li>
+                  <li>Extração, tratamento e interpretação de dados por consultas em banco de dados para apoiar análises e decisões da equipe.</li>
+                  <li>Desenvolvimento, manutenção e aprimoramento de scripts PL/SQL para automação de processos e geração de relatórios.</li>
+                  <li>Levantamento de requisitos e processos de sistemas e execução de tarefas atribuídas no Jira.</li>
+                  <li>Atuação como ponto focal em reuniões operacionais, alinhamentos e criação e acompanhamento de mudanças nos sistemas.</li>
+                  <li>Testes e monitoramento de ajustes; análise e validação de solicitações de mudança, com aprovação ou reprovação segundo critérios do time de Projetos.</li>
+                  <li>Registro e documentação de problemas e incidentes, elaboração de diagnósticos, modelos de chamados e conteúdo de FAQ no GLPI.</li>
+                </ul>
+              </div>
+            </details>
+          </article>
+        </li>
+        <li class="experience-company">
+          <h3>Codau</h3>
+          <p class="experience-company-name">Companhia Operacional de Desenvolvimento, Saneamento e Ações Urbanas</p>
+          <article class="experience-role" aria-labelledby="role-codau">
+            <h4 id="role-codau">Supervisor de TI</h4>
+            <p class="experience-period"><time datetime="2025-08">Ago. 2025</time> — <time datetime="2026-02">Fev. 2026</time></p>
+            <details>
+              <summary>Responsabilidades e competências</summary>
+              <div class="experience-activities">
+                <ul>
+                  <li>Supervisão e coordenação das atividades de TI, com foco em análise de dados, automação de processos e gestão de sistemas.</li>
+                  <li>Análise de dados e inteligência da informação para apoiar decisões estratégicas e as áreas de negócio.</li>
+                  <li>Automação de processos internos e identificação e implementação de melhorias nos processos tecnológicos.</li>
+                  <li>Levantamento, documentação e validação de requisitos para integração de novos sistemas.</li>
+                  <li>Mapeamento, controle e governança das aplicações corporativas.</li>
+                </ul>
+              </div>
+            </details>
+          </article>
+        </li>
+        <li class="experience-company">
+          <h3>MEGADATA COMPUTAÇÕES LTDA</h3>
+          <article class="experience-role" aria-labelledby="role-megadata">
+            <h4 id="role-megadata">Auxiliar de Processamento I</h4>
+            <p class="experience-period"><time datetime="2023-01">Jan. 2023</time> — <time datetime="2024-10">Out. 2024</time></p>
+            <p class="experience-location">Uberaba, Minas Gerais, Brasil</p>
+            <details>
+              <summary>Atividades e ferramentas</summary>
+              <div class="experience-activities">
+                <ul>
+                  <li>Desenvolvimento e testes de APIs e Web Services.</li>
+                  <li>Suporte técnico ao Call Center para resolução de problemas operacionais.</li>
+                  <li>Manutenção e gerenciamento da rede interna e de equipamentos.</li>
+                  <li>Desenvolvimento e execução de testes unitários em PHP.</li>
+                  <li>Criação e otimização de consultas SQL; análise e correção de bugs reportados.</li>
+                </ul>
+                <p class="experience-context">Atuação na equipe de Web Services do WebISS, com manutenção de serviços, levantamento de requisitos e implementação de melhorias.</p>
+              </div>
+            </details>
+          </article>
+        </li>
+        <li class="experience-company">
+          <h3>DuBrasil Soluções</h3>
+          <article class="experience-role" aria-labelledby="role-dubrasil-sistemas">
+            <h4 id="role-dubrasil-sistemas">Analista de Sistemas Computacionais II</h4>
+            <p class="experience-period"><time datetime="2021-08">Ago. 2021</time> — <time datetime="2022-12">Dez. 2022</time></p>
+            <p class="experience-location">Uberaba, Minas Gerais, Brasil</p>
+            <details>
+              <summary>Atividades e ferramentas</summary>
+              <div class="experience-activities">
+                <ul>
+                  <li>Desenvolvimento de workflows em Delphi para automação de tarefas e desenvolvimento de relatórios.</li>
+                  <li>Gerenciamento e manutenção do banco Firebird, com criação e otimização de consultas SQL.</li>
+                  <li>Desenvolvimento e aprimoramento de funcionalidades de ERP, suporte técnico e atendimento Help Desk.</li>
+                </ul>
+                <p class="experience-context">Atuação no setor TGA Sistemas, com suporte interno, identificação e solução de bugs e orientação aos usuários do ERP.</p>
+              </div>
+            </details>
+          </article>
+          <article class="experience-role" aria-labelledby="role-dubrasil-suporte">
+            <h4 id="role-dubrasil-suporte">Analista de suporte técnico</h4>
+            <p class="experience-period"><time datetime="2019-07">Jul. 2019</time> — <time datetime="2022-12">Dez. 2022</time></p>
+            <details>
+              <summary>Atividades e ferramentas</summary>
+              <div class="experience-activities">
+                <ul>
+                  <li>Implantação de softwares e treinamento de usuários.</li>
+                  <li>Manutenção e instalação de equipamentos eletrônicos.</li>
+                  <li>Atendimento Help Desk e gestão e manutenção do banco de dados Access.</li>
+                </ul>
+                <p class="experience-context">Atuação com softwares Secullum, suporte direto aos usuários e implantação externa em ambientes de clientes.</p>
+              </div>
+            </details>
+          </article>
+        </li>
+        <li class="experience-company">
+          <h3>Potenza - Correios</h3>
+          <article class="experience-role" aria-labelledby="role-potenza">
+            <h4 id="role-potenza">Auxiliar Operacional</h4>
+            <p class="experience-period"><time datetime="2018">2018</time> — <time datetime="2019">2019</time></p>
+            <p class="experience-location">Centro de Distribuição Domiciliária (CDD) dos Correios · atuação terceirizada pela Potenza</p>
+            <details>
+              <summary>Atividades e competências</summary>
+              <div class="experience-activities">
+                <ul>
+                  <li>Apoio operacional à logística de distribuição de encomendas no CDD dos Correios, em atuação contratual terceirizada.</li>
+                  <li>Organização do fluxo de materiais e apoio às rotinas de distribuição.</li>
+                  <li>Resolução de problemas cotidianos e atuação sob pressão no ambiente operacional.</li>
+                </ul>
+              </div>
+            </details>
+          </article>
+        </li>
+        <li class="experience-company">
+          <h3>Black &amp; Decker</h3>
+          <article class="experience-role" aria-labelledby="role-black-decker">
+            <h4 id="role-black-decker">Estagiário em Logística</h4>
+            <p class="experience-period"><time datetime="2015">2015</time> — <time datetime="2017">2017</time></p>
+            <details>
+              <summary>Atividades e competências</summary>
+              <div class="experience-activities">
+                <ul>
+                  <li>Apoio administrativo à área de logística e às rotinas de distribuição.</li>
+                  <li>Aplicação dos conhecimentos do curso Técnico Administrativo nas atividades do setor.</li>
+                  <li>Resolução de desafios cotidianos e desenvolvimento de habilidades práticas no ambiente de logística.</li>
+                </ul>
+                <p class="experience-context">Ingresso por intermédio da FETI — Fundação de Ensino Técnico Intensivo.</p>
+              </div>
+            </details>
+          </article>
+        </li>
+      </ol>
     </section>
     <section class="projetos" id="projetos" data-anime="js-scroll">
       <p class="eyebrow">04 / PROJECT.LOG</p><h2 class="section-title">Código em prática<span class="accent">.</span></h2><p class="section-intro">Estudos de segurança, desenvolvimento e experimentação. Do conceito ao código.</p>
       <div class="projetos__wrapper">
-        <section class="projetos__card"><a class="project-cover cover-c2" href="https://github.com/ikenpachi/Command-and-Control" target="_blank" rel="noopener noreferrer" aria-label="Abrir repositório HarpiaC2"><span>RED TEAM / 01</span><strong>HARPIA<br>C2<span class="accent">_</span></strong><span>CLIENT ←→ SERVER</span></a><h2>HarpiaC2 / Command and Control</h2><p>Prova de conceito educacional de Command and Control em Python. Comunicação cliente-servidor via sockets, múltiplas conexões e criptografia AES com troca de chaves Diffie-Hellman.</p><span>Python / socket / cryptography<br>PoC documentada · atualização: 04 jun. 2025</span><a href="https://github.com/ikenpachi/Command-and-Control" target="_blank" rel="noopener noreferrer"><div class="projetos__card-button">Repositório ↗</div></a></section>
         <section class="projetos__card">
+          <div class="project-meta"><span>01 / RED TEAM / PYTHON</span><span aria-hidden="true">↗</span></div><a class="project-cover cover-c2" href="https://github.com/ikenpachi/Command-and-Control" target="_blank" rel="noopener noreferrer" aria-label="Abrir repositório HarpiaC2"><span>RED TEAM / 01</span><strong>HARPIA<br>C2<span class="accent">_</span></strong><span>CLIENT ←→ SERVER</span></a><h2>HarpiaC2 / Command and Control</h2><p>Prova de conceito educacional de Command and Control em Python. Comunicação cliente-servidor via sockets, múltiplas conexões e criptografia AES com troca de chaves Diffie-Hellman.</p><span>Python / socket / cryptography<br>PoC documentada · atualização: 04 jun. 2025</span><a href="https://github.com/ikenpachi/Command-and-Control" target="_blank" rel="noopener noreferrer"><div class="projetos__card-button">Repositório</div></a></section>
+        <section class="projetos__card">
+          <div class="project-meta"><span>02 / WIRELESS / DOCUMENTAÇÃO</span><span aria-hidden="true">↗</span></div>
           <a href="https://github.com/ikenpachi/Wireless-Attacks-Docs-Red-Team" target="_blank" rel="noopener noreferrer">
             <img src="./assets/Wireless-Attacks-Docs-Red-Team.png" alt="Capa do Projeto" class="projeto-img" loading="lazy" />
           </a>
@@ -225,6 +278,7 @@
           </a>
         </section>
         <section class="projetos__card">
+          <div class="project-meta"><span>03 / WEB / PORTFÓLIO</span><span aria-hidden="true">↗</span></div>
           <a href="https://github.com/ikenpachi/Portfolio-main" target="_blank" rel="noopener noreferrer">
             <img src="./assets/portfolio-meu.png" alt="Capa do Portfólio" class="projeto-img" loading="lazy" />
           </a>
@@ -243,6 +297,7 @@
           </a>
         </section>
         <section class="projetos__card">
+          <div class="project-meta"><span>04 / AUTOMAÇÃO / IOT</span><span aria-hidden="true">↗</span></div>
           <a href="https://www.instagram.com/p/CskUsMmMcR9HEajcwK5JuRjhxsjxSXNKDtgMYg0/?igsh=MWNjcmk3MG9uYzV0aQ=="
             target="_blank" rel="noopener noreferrer">
             <img src="./assets/robo-python.png" alt="Registro visual do projeto" class="projeto-img" loading="lazy" />
@@ -263,6 +318,7 @@
           </a>
         </section>
         <section class="projetos__card">
+          <div class="project-meta"><span>05 / MOBILE / FLUTTER</span><span aria-hidden="true">↗</span></div>
           <a href="https://www.linkedin.com/posts/igor-ribeiro-14b80b1a2_projetointegrador-desenvolvimentomobile-unifacthus-activity-7079883795197214720-FDsK?utm_source=share&utm_medium=member_desktop&rcm=ACoAAC92SwsBYM-rxdHz1jJD3J7akkA6e-fpQAE"
             target="_blank" rel="noopener noreferrer">
             <img src="./assets/ready-to-play.jpg" alt="Registro visual do projeto" class="projeto-img" loading="lazy" />
@@ -283,6 +339,7 @@
           </a>
         </section>
         <section class="projetos__card">
+          <div class="project-meta"><span>06 / GAME DEV / UNITY</span><span aria-hidden="true">↗</span></div>
           <a href="https://github.com/igor-s-ribeiro/Chess-Project" target="_blank" rel="noopener noreferrer">
             <img src="./assets/chess.jpg" alt="Registro visual do projeto" class="projeto-img" loading="lazy" />
           </a>
@@ -303,11 +360,10 @@
       </div>
     </section>
 
-    <footer id="contato"><div><p class="eyebrow">CONTACT / VAMOS CONVERSAR</p><a class="contact-email" href="mailto:igorsampaio10@outlook.com">igorsampaio10@outlook.com ↗</a></div><div class="footer-bottom"><span>CORROSIVO / IGOR RIBEIRO</span><a href="https://github.com/ikenpachi" target="_blank" rel="noopener noreferrer">GITHUB ↗</a><a href="https://www.linkedin.com/in/igor-ribeiro-14b80b1a2/" target="_blank" rel="noopener noreferrer">LINKEDIN ↗</a><a href="#home">VOLTAR AO TOPO ↑</a></div></footer>
+    <footer id="contato"><div class="contact-heading"><span class="contact-orbit" aria-hidden="true">↗</span><div><p class="eyebrow">CONTACT / VAMOS CONVERSAR</p><a class="contact-email" href="mailto:igorsampaio10@outlook.com">igorsampaio10@outlook.com ↗</a><p class="contact-copy">Uma conversa pode ser o início da próxima conexão.</p></div></div><div class="footer-bottom"><span>CORROSIVO / IGOR RIBEIRO</span><a href="https://github.com/ikenpachi" target="_blank" rel="noopener noreferrer">GITHUB ↗</a><a href="https://www.linkedin.com/in/igor-ribeiro-14b80b1a2/" target="_blank" rel="noopener noreferrer">LINKEDIN ↗</a><a href="#home">VOLTAR AO TOPO ↑</a></div></footer>
   </main>
 
-  <script src="./js/script.js" type="module"></script>
-  <script src="./js/modules/vanilla-tilt.min.js"></script>
+  <script src="./js/script.js?v=5331abd1ca89" defer></script>
 </body>
 
 </html>

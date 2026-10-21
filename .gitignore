@@ -1,0 +1,3 @@
+# Referências privadas: manter localmente, fora do histórico e do deploy.
+/references/*.[pP][dD][fF]
+/tmp/

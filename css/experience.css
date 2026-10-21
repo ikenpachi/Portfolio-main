@@ -1,0 +1,42 @@
+/* Compact two-column composition, aligned with About. */
+.experiencia { display: grid; grid-template-columns: minmax(220px, .65fr) 1.6fr; gap: clamp(38px, 7vw, 100px); align-items: start; }
+.experience-heading { position: sticky; top: 128px; }
+.experience-heading .section-title { font-size: clamp(30px, 3.1vw, 44px); }
+.experience-intro { color: var(--secondary); font-size: 14px; line-height: 1.8; }
+.experience-timeline { list-style: none; padding: 0 0 0 22px; margin: 0; border-left: 1px solid var(--border); }
+.experience-company { position: relative; padding: 0 0 24px; min-width: 0; }
+.experience-company:last-child { padding-bottom: 0; }
+.experience-company::before { content: ''; position: absolute; width: 8px; height: 8px; top: 8px; left: -27px; background: var(--accent-secondary); border: 2px solid var(--bg); border-radius: 50%; }
+.experience-company h3 { font-size: clamp(18px, 1.55vw, 22px); font-weight: 500; letter-spacing: -.03em; overflow-wrap: anywhere; }
+.experience-company-name { color: var(--secondary); font-size: 12px; margin: 5px 0 0; line-height: 1.6; }
+.experience-role { display: grid; grid-template-columns: minmax(0, 1fr) auto; align-items: start; column-gap: 14px; margin-top: 12px; padding: 16px 18px 4px; border: 1px solid var(--border); border-radius: 8px; background: var(--bg-secondary); }
+.experience-role:has(details[open]) { border-color: color-mix(in srgb, var(--accent) 45%, var(--border)); }
+.experience-role h4 { font-size: 15px; line-height: 1.5; font-weight: 500; overflow-wrap: anywhere; }
+.experience-period { color: var(--accent-readable); font: 500 10px/2.2 var(--mono); font-variant-numeric: tabular-nums; }
+.experience-location { grid-column: 1 / -1; color: var(--secondary); font-size: 12px; margin-top: 6px; line-height: 1.6; }
+.experience-role details { grid-column: 1 / -1; margin-top: 8px; }
+.experience-role summary { cursor: pointer; padding: 12px 0; min-height: 44px; font: 500 11px/1.7 var(--mono); color: var(--secondary); }
+.experience-role summary:hover, .experience-role summary::marker { color: var(--accent-readable); }
+.experience-role details[open] > .experience-activities { animation: reveal .25s ease both; }
+.experience-activities { padding: 0 0 12px; color: var(--secondary); font-size: 13px; line-height: 1.8; }
+.experience-activities ul { margin: 4px 0 0; padding-left: 18px; }
+.experience-activities li + li { margin-top: 7px; }
+.experience-activities li::marker { color: var(--accent-secondary); }
+.experience-context { margin-top: 12px; font-size: 12px; }
+@media (max-width: 1100px) {
+  .experience-role { grid-template-columns: 1fr; }
+  .experience-period { margin-top: 5px; }
+}
+@media (max-width: 800px) {
+  .experiencia { grid-template-columns: 1fr; gap: 30px; }
+  .experience-heading { position: static; }
+  .experience-intro { max-width: 650px; }
+  .experience-role { grid-template-columns: minmax(0, 1fr) auto; }
+  .experience-period { margin-top: 0; }
+}
+@media (max-width: 540px) {
+  .experience-timeline { padding-left: 16px; }
+  .experience-company::before { left: -21px; }
+  .experience-role { grid-template-columns: 1fr; padding-inline: 14px; }
+  .experience-period { margin-top: 4px; }
+}

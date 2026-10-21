@@ -6,7 +6,8 @@ export default function initScrollSuave() {
         const href = event.currentTarget.getAttribute("href");
         const section = document.querySelector(href);
         if (!section) return;
-        history.replaceState(null, '', href);
+        // Some browsers reject History API writes on file:// previews.
+        try { history.replaceState(null, '', href); } catch (error) {}
         section.setAttribute('tabindex', '-1');
         section.focus({ preventScroll: true });
         section.scrollIntoView({

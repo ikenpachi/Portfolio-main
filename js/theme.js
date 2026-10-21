@@ -13,7 +13,7 @@
       button.textContent = theme === 'dark' ? '◐ CLARO' : '◑ ESCURO';
     }
     var meta = document.querySelector('meta[name="theme-color"]');
-    if (meta) meta.content = theme === 'dark' ? '#08090B' : '#F0EDE4';
+    if (meta) meta.content = theme === 'dark' ? '#09121C' : '#EAF4F5';
   }
   apply(saved === 'light' || saved === 'dark' ? saved : system.matches ? 'dark' : 'light');
   document.addEventListener('DOMContentLoaded', function () {
