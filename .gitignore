@@ -1,3 +1,4 @@
 # Referências privadas: manter localmente, fora do histórico e do deploy.
-/references/*.[pP][dD][fF]
+/references/
+/EXPERIENCE-AUDIT.md
 /tmp/
