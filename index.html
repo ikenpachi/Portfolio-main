@@ -6,57 +6,56 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="author" content="Igor Ribeiro">
-  <meta name="description" content="Portfólio do desenvolvedor Igor Ribeiro">
-  <meta name="keywords" content="portfolio, html, front-end, desenvolvimento, css, javascript">
-  <title>Igor Ribeiro</title>
+  <meta name="description" content="Igor Ribeiro / Corrosivo. Cybersecurity, Ethical Hacking, Offensive Security e Red Team. Minas Gerais, Brasil.">
+  <meta name="keywords" content="Igor Ribeiro, Corrosivo, cybersecurity, ethical hacking, red team, Python, Linux">
+  <meta name="theme-color" content="#F0EDE4">
+  <meta property="og:title" content="Corrosivo / Igor Ribeiro">
+  <meta property="og:description" content="Cybersecurity, Ethical Hacking e Red Team. Projetos e trajetória de Igor Ribeiro.">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="pt_BR">
+  <meta property="og:url" content="https://ikenpachi.github.io/Portfolio-main/">
+  <meta property="og:image" content="https://ikenpachi.github.io/Portfolio-main/assets/eu-cartoon.jpeg">
+  <meta name="twitter:card" content="summary">
+  <link rel="canonical" href="https://ikenpachi.github.io/Portfolio-main/">
+  <title>Corrosivo / Igor Ribeiro — Cybersecurity</title>
+  <script src="./js/theme.js"></script>
   <link rel="icon" href="./assets/notebook.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 
   <link rel="stylesheet" href="./css/styles.css" />
 </head>
 
 <body>
+  <a class="skip-link" href="#home">Pular para o conteúdo</a>
   <header>
-    <nav data-menu="suave">
-      <p><a href="#home">&lsaquo;IR/&rsaquo;</a></p>
-      <button data-menu="button" aria-controls="menu"></button>
+    <nav data-menu="suave" aria-label="Navegação principal">
+      <p class="brand"><a href="#home">CORROSIVO<span>●</span></a></p>
       <ul data-menu="list" id="menu">
-        <a href="#home">
-          <li>Home</li>
-        </a>
-        <a href="#sobre">
-          <li>Sobre</li>
-        </a>
-        <a href="#experiencia">
-          <li>Experiência</li>
-        </a>
-        <a href="#projetos">
-          <li>Projetos</li>
-        </a>
-        <a href="https://www.buymeacoffee.com/iKenpachi" target="_blank"><img
-            src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee"
-            style="height: 40px !important;width: 180px !important;"></a>
+        <li><a href="#home">01 / Início</a></li><li><a href="#sobre">02 / Sobre</a></li>
+        <li><a href="#experiencia">03 / Experiência</a></li><li><a href="#projetos">04 / Projetos</a></li>
       </ul>
+      <button class="theme-toggle" data-theme-toggle type="button" aria-label="Alternar tema" aria-pressed="false" hidden>◑ TEMA</button>
+      <button data-menu="button" type="button" aria-controls="menu" aria-expanded="false" aria-label="Abrir menu">MENU +</button>
     </nav>
   </header>
 
   <main>
     <section class="principal" id="home">
       <div class="principal__left">
-        <h1>Olá, eu sou</h1>
-        <span class="principal__sentence"></span>
-        <span class="principal__input-cursor"></span>
-        <h1>um entusiasta por soluções tecnológicas.</h1>
+        <p class="eyebrow"><i class="status-dot" aria-hidden="true"></i> SYS.INFO / MINAS GERAIS, BR</p>
+        <h1><span class="principal__sentence">Igor Ribeiro</span><span class="nickname">[ CORROSIVO ]</span></h1>
+        <p class="hero-role">Cybersecurity.<br>Curiosidade ofensiva<span class="accent">.</span></p>
+        <p class="hero-description">Ethical Hacking / Offensive Security / Red Team.<br>Explorando sistemas. Conectando conhecimento.</p>
         <div class="principal__botao">
-          <a href="https://www.linkedin.com/in/igor-ribeiro-14b80b1a2/" target="_blank">
+          <a href="https://www.linkedin.com/in/igor-ribeiro-14b80b1a2/" target="_blank" rel="noopener noreferrer">
             <div class="principal__botao-linkedin">
               <img src="./assets/linkedin.png" alt="" />
               <p>LinkedIn</p>
             </div>
           </a>
-          <a href="https://github.com/ikenpachi" target="_blank">
+          <a href="https://github.com/ikenpachi" target="_blank" rel="noopener noreferrer">
             <div class="principal__botao-github">
               <img src="./assets/github.png" alt="" />
               <p>Github</p>
@@ -64,32 +63,28 @@
           </a>
         </div>
       </div>
-      <div class="principal__right">
-        <img src="./assets/coding2.png" style="height: 475px;width: 475px " alt="Ilustração" data-tilt>
+      <div class="principal__right" aria-label="Painel de identidade profissional">
+        <div class="sys-panel"><div class="panel-top"><span>SECURITY / RESEARCH</span><span>IR—01</span></div>
+        <div class="orbital" aria-hidden="true"><div class="orbit-ring"></div><span class="orbital-cross">+</span></div>
+        <div class="panel-title">CORROSIVO<span class="accent">_</span></div>
+        <div class="sys-table"><p><span>IDENTITY</span><b>IGOR RIBEIRO</b></p><p><span>FOCUS</span><b>RED TEAM</b></p><p><span>ENVIRONMENT</span><b>LINUX / CODE</b></p></div>
+        <div class="panel-bottom"><span>● KNOWLEDGE IN PROGRESS</span><span>[01:04]</span></div></div>
       </div>
 
       <div class="scroll" data-menu="suave"><a href="#sobre">
-          <p> scroll down </p> <img src="./assets/scroll.png" alt="Seta indicando para rolar a tela para baixo">
+          <p> EXPLORAR / ↓ </p> <img src="./assets/scroll.png" alt="Seta indicando para rolar a tela para baixo">
         </a></div>
     </section>
     <section class="sobre-mim" id="sobre" data-anime="js-scroll">
       <div class="sobre-mim__foto">
-        <img src="./assets/eu-cartoon.jpeg" style="height: 300px;width: 300px" alt="Foto minha" />
+        <img src="./assets/eu-cartoon.jpeg" style="height: 300px;width: 300px" alt="Retrato ilustrado de Igor Ribeiro" loading="lazy" width="300" height="300" />
       </div>
       <div class="sobre-mim__descricao">
-        <h1>Sobre mim</h1>
-        <h2>Brasil - Portugal</h2>
-        <p>
-          Meu nome é Igor Ribeiro, tenho 25 anos e sou apaixonado por segurança ofensiva e ethical hacking. Sou formado
-          em Sistemas de Informação pela FACTHUS (2024) e recentemente concluí uma pós-graduação em Cyber Security – Red
-          Team.
-
-          Durante minha trajetória, adquiri experiência com desenvolvimento, análise de dados e suporte técnico, além de
-          me aprofundar em testes de segurança, bug hunting e análise de vulnerabilidades. Estou em busca de
-          oportunidades para aplicar e expandir minhas habilidades em pentesting, engenharia reversa e exploração de
-          sistemas, sempre buscando desafios que me permitam crescer e contribuir para a área de segurança da
-          informação.
-        </p>
+        <p class="eyebrow">02 / ABOUT.ME</p><h2 class="section-title">Por trás do terminal<span class="accent">.</span></h2>
+        <h3>Minas Gerais, Brasil</h3>
+        <p>Sou Igor Ribeiro, também conhecido como Corrosivo. Meu foco está em Cybersecurity, Ethical Hacking, Offensive Security e Red Team. Tenho formação em pós-graduação e interesse em entender como sistemas funcionam, onde falham e como protegê-los.</p>
+        <p>Desenvolvimento, infraestrutura de TI, Segurança da Informação e LGPD fazem parte do meu universo de estudo e prática.</p>
+        <dl class="toolkit"><div><dt>CODE</dt><dd>Python / C# / Node.js</dd></div><div><dt>DATA</dt><dd>PostgreSQL / Firebird / Microsoft Access<br>pgAdmin / DBeaver</dd></div><div><dt>ENV</dt><dd>Docker / Kali Linux / Arch Linux / VS Code</dd></div></dl>
         <div class="sobre-mim__descricao-buttons">
           <a href="./assets/CV - IGOR SAMPAIO RIBEIRO.pdf" download="">
             <div class="sobre-mim__descricao-buttons-curriculo">
@@ -97,7 +92,7 @@
               <p>Currículo</p>
             </div>
           </a>
-          <a href="mailto: igorsampaio10@outlook.com?subject=Igor, vim pelo seu portfólio! :)" target="_blank">
+          <a href="mailto:igorsampaio10@outlook.com" target="_blank" rel="noopener noreferrer">
             <div class="sobre-mim__descricao-buttons-email">
               <img src="./assets/email.png" alt="" />
               <p>E-mail</p>
@@ -108,11 +103,11 @@
       </div>
     </section>
     <section class="experiencia" id="experiencia" data-anime="js-scroll">
-      <h1>Experiência</h1>
+      <p class="eyebrow">03 / EXPERIENCE.LOG</p><h2 class="section-title">Trajetória<span class="accent">.</span></h2>
       <div class="experiencia__wrapper">
         <section class="experiencia__lugares">
           <ul data-tab="menu">
-            <li>&#128064&#128064</li>
+            <li>Cybersecurity</li>
             <li>Black & Decker</li>
             <li>Potenza - Correios</li>
             <li>DuBrasil Soluções</li>
@@ -122,10 +117,9 @@
         </section>
         <div class="experiencia__descricao" data-tab="content">
           <section data-anime="show-right">
-            <h2>Em busca da minha primeira experiência "oficial" em Cyber Sec :)</h2>
-            <p class="experiencia__descricao-local">Quem sabe na sua empresa?</p>
-            <p>Estou disponível para bater um papo, você pode entrar em contato via whatsapp +351 932 187 753 &#10024
-            </p>
+            <h2>Foco em Cybersecurity e Red Team</h2>
+            <p class="experiencia__descricao-local">Ethical Hacking / Offensive Security</p>
+            <p>Para conversar sobre tecnologia e segurança, entre em contato pelo e-mail <a href="mailto:igorsampaio10@outlook.com">igorsampaio10@outlook.com</a>.</p>
           </section>
           <section data-anime="show-right">
             <h2>Estagiário em Logística</h2>
@@ -206,15 +200,15 @@
             </p>
           </section>
         </div>
-    </section>
-    </div>
+      </div>
     </section>
     <section class="projetos" id="projetos" data-anime="js-scroll">
-      <h1>Projetos</h1>
+      <p class="eyebrow">04 / PROJECT.LOG</p><h2 class="section-title">Código em prática<span class="accent">.</span></h2><p class="section-intro">Estudos de segurança, desenvolvimento e experimentação. Do conceito ao código.</p>
       <div class="projetos__wrapper">
+        <section class="projetos__card"><a class="project-cover cover-c2" href="https://github.com/ikenpachi/Command-and-Control" target="_blank" rel="noopener noreferrer" aria-label="Abrir repositório HarpiaC2"><span>RED TEAM / 01</span><strong>HARPIA<br>C2<span class="accent">_</span></strong><span>CLIENT ←→ SERVER</span></a><h2>HarpiaC2 / Command and Control</h2><p>Prova de conceito educacional de Command and Control em Python. Comunicação cliente-servidor via sockets, múltiplas conexões e criptografia AES com troca de chaves Diffie-Hellman.</p><span>Python / socket / cryptography<br>PoC documentada · atualização: 04 jun. 2025</span><a href="https://github.com/ikenpachi/Command-and-Control" target="_blank" rel="noopener noreferrer"><div class="projetos__card-button">Repositório ↗</div></a></section>
         <section class="projetos__card">
-          <a href="https://github.com/ikenpachi/Wireless-Attacks-Docs-Red-Team" target="_blank">
-            <img src="./assets/Wireless-Attacks-Docs-Red-Team.png" alt="Capa do Projeto" class="projeto-img" />
+          <a href="https://github.com/ikenpachi/Wireless-Attacks-Docs-Red-Team" target="_blank" rel="noopener noreferrer">
+            <img src="./assets/Wireless-Attacks-Docs-Red-Team.png" alt="Capa do Projeto" class="projeto-img" loading="lazy" />
           </a>
           <h2>Wireless-Attacks-Docs-Red-Team</h2>
           <p>
@@ -222,8 +216,8 @@
             fio. Ele foi projetado para ajudar profissionais e entusiastas de segurança a explorar ataques e defesas de
             redes sem fio em um contexto Red Team.
           </p>
-          <span>Wireless Attacks - Docs</span>
-          <a href="https://github.com/ikenpachi/Wireless-Attacks-Docs-Red-Team" target="_blank">
+          <span>Segurança wireless / Documentação<br>Estudos publicados · atualização: 02 abr. 2025</span>
+          <a href="https://github.com/ikenpachi/Wireless-Attacks-Docs-Red-Team" target="_blank" rel="noopener noreferrer">
             <div class="projetos__card-button">
               <img src="./assets/link.png" alt="">
               Visualizar
@@ -231,8 +225,8 @@
           </a>
         </section>
         <section class="projetos__card">
-          <a href="https://igorsribeiro.netlify.app/" target="_blank">
-            <img src="./assets/portfolio-meu.png" alt="Capa do Portfólio" class="projeto-img" />
+          <a href="https://github.com/ikenpachi/Portfolio-main" target="_blank" rel="noopener noreferrer">
+            <img src="./assets/portfolio-meu.png" alt="Capa do Portfólio" class="projeto-img" loading="lazy" />
           </a>
           <h2>Portfólio</h2>
           <p>
@@ -240,8 +234,8 @@
             primeiro contato com criação de páginas web responsivas, explorando princípios básicos de design e
             usabilidade.
           </p>
-          <span>Tecnologias usadas no projeto: HTML, CSS e JS.</span>
-          <a href="https://igorsribeiro.netlify.app/" target="_blank">
+          <span>HTML / CSS / JavaScript<br>Site publicado no GitHub Pages · <a href="https://ikenpachi.github.io/Portfolio-main/" target="_blank" rel="noopener noreferrer">Demonstração ↗</a></span>
+          <a href="https://github.com/ikenpachi/Portfolio-main" target="_blank" rel="noopener noreferrer">
             <div class="projetos__card-button">
               <img src="./assets/link.png" alt="">
               Visualizar
@@ -250,10 +244,10 @@
         </section>
         <section class="projetos__card">
           <a href="https://www.instagram.com/p/CskUsMmMcR9HEajcwK5JuRjhxsjxSXNKDtgMYg0/?igsh=MWNjcmk3MG9uYzV0aQ=="
-            target="_blank">
-            <img src="./assets/robo-python.png" alt="" class="projeto-img" />
+            target="_blank" rel="noopener noreferrer">
+            <img src="./assets/robo-python.png" alt="Registro visual do projeto" class="projeto-img" loading="lazy" />
           </a>
-          <h2>AutoBot</h2>
+          <h2>AutoBot</h2><small class="provenance">Projeto do portfólio original</small>
           <p>
             Carro robótico programado em Python, equipado com sensores de proximidade, controle via celular (Wi-Fi), e
             capacidade autônoma de seguir faixas. Projeto criado com foco em automação e IoT, aplicando conceitos de
@@ -261,7 +255,7 @@
           </p>
           <span>Tecnologias usadas no projeto: Python, Raspberry.</span>
           <a href="https://www.instagram.com/p/CskUsMmMcR9HEajcwK5JuRjhxsjxSXNKDtgMYg0/?igsh=MWNjcmk3MG9uYzV0aQ=="
-            target="_blank">
+            target="_blank" rel="noopener noreferrer">
             <div class="projetos__card-button">
               <img src="./assets/link.png" alt="">
               Visualizar
@@ -270,10 +264,10 @@
         </section>
         <section class="projetos__card">
           <a href="https://www.linkedin.com/posts/igor-ribeiro-14b80b1a2_projetointegrador-desenvolvimentomobile-unifacthus-activity-7079883795197214720-FDsK?utm_source=share&utm_medium=member_desktop&rcm=ACoAAC92SwsBYM-rxdHz1jJD3J7akkA6e-fpQAE"
-            target="_blank">
-            <img src="./assets/ready-to-play.jpg" alt="" class="projeto-img" />
+            target="_blank" rel="noopener noreferrer">
+            <img src="./assets/ready-to-play.jpg" alt="Registro visual do projeto" class="projeto-img" loading="lazy" />
           </a>
-          <h2>Ready To Play</h2>
+          <h2>Ready To Play</h2><small class="provenance">Projeto do portfólio original</small>
           <p>
             Aplicativo mobile desenvolvido em Dart/Flutter para facilitar a reserva de quadras esportivas, piscinas e
             espaços recreativos. O sistema possui funcionalidades como controle financeiro, criação de torneios e gestão
@@ -281,7 +275,7 @@
           </p>
           <span>Tecnologias usadas no projeto: Dart, Flutter.</span>
           <a href="https://www.linkedin.com/posts/igor-ribeiro-14b80b1a2_projetointegrador-desenvolvimentomobile-unifacthus-activity-7079883795197214720-FDsK?utm_source=share&utm_medium=member_desktop&rcm=ACoAAC92SwsBYM-rxdHz1jJD3J7akkA6e-fpQAE"
-            target="_blank">
+            target="_blank" rel="noopener noreferrer">
             <div class="projetos__card-button">
               <img src="./assets/link.png" alt="">
               Visualizar
@@ -289,16 +283,16 @@
           </a>
         </section>
         <section class="projetos__card">
-          <a href="https://github.com/igor-s-ribeiro/Chess-Project" target="_blank">
-            <img src="./assets/chess.jpg" alt="" class="projeto-img" />
+          <a href="https://github.com/igor-s-ribeiro/Chess-Project" target="_blank" rel="noopener noreferrer">
+            <img src="./assets/chess.jpg" alt="Registro visual do projeto" class="projeto-img" loading="lazy" />
           </a>
-          <h2>Xadrez 2D (Game Dev com Unity)</h2>
+          <h2>Xadrez 2D (Game Dev com Unity)</h2><small class="provenance">Projeto do portfólio original</small>
           <p>
             Jogo de xadrez 2D desenvolvido em Unity com C#, voltado para fins acadêmicos e aprendizado de
             desenvolvimento de jogos. O projeto inclui regras básicas do jogo e interface amigável para duas pessoas.
           </p>
           <span>Tecnologias usadas no projeto: C#, Unity.</span>
-          <a href="https://github.com/igor-s-ribeiro/Chess-Project" target="_blank">
+          <a href="https://github.com/igor-s-ribeiro/Chess-Project" target="_blank" rel="noopener noreferrer">
             <div class="projetos__card-button">
               <img src="./assets/link.png" alt="">
               Visualizar
@@ -309,11 +303,7 @@
       </div>
     </section>
 
-    <footer>
-      <p>Desenvolvido com muito <img src="./assets/heart.png" alt="Ícone de coração"> por</p><a
-        href="https://www.linkedin.com/in/igor-ribeiro-14b80b1a2/" target="_blank"><span> Igor
-          Ribeiro</span></a>
-    </footer>
+    <footer id="contato"><div><p class="eyebrow">CONTACT / VAMOS CONVERSAR</p><a class="contact-email" href="mailto:igorsampaio10@outlook.com">igorsampaio10@outlook.com ↗</a></div><div class="footer-bottom"><span>CORROSIVO / IGOR RIBEIRO</span><a href="https://github.com/ikenpachi" target="_blank" rel="noopener noreferrer">GITHUB ↗</a><a href="https://www.linkedin.com/in/igor-ribeiro-14b80b1a2/" target="_blank" rel="noopener noreferrer">LINKEDIN ↗</a><a href="#home">VOLTAR AO TOPO ↑</a></div></footer>
   </main>
 
   <script src="./js/script.js" type="module"></script>
