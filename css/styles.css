@@ -95,10 +95,28 @@ nav li a:hover::after, nav li a[aria-current]::after { transform: scaleX(1); }
 
 /* Shared composition */
 main { max-width: 1660px; margin: auto; }
-.principal, .sobre-mim, .experiencia, .projetos, footer { padding: clamp(72px, 8vw, 128px) var(--gutter); position: relative; }
-.sobre-mim, .experiencia, .projetos { border-top: 1px solid var(--border); }
+.principal, .sobre-mim, .experiencia, .certificacoes, .projetos, footer { padding: clamp(72px, 8vw, 128px) var(--gutter); position: relative; }
+.sobre-mim, .experiencia, .certificacoes, .projetos { border-top: 1px solid var(--border); }
 .section-title { font-size: clamp(34px, 4.2vw, 60px); font-weight: 500; letter-spacing: -.055em; margin-bottom: 30px; }
 .section-intro { color: var(--secondary); max-width: 620px; margin: -8px 0 46px; }
+
+/* Certifications */
+.certificacoes { background: var(--bg-secondary); padding-block: clamp(56px, 6vw, 88px); }
+.certificacoes > .eyebrow { margin-bottom: 12px; }
+.certificacoes > .section-title { margin-bottom: 24px; }
+.certificate-card { display: grid; grid-template-columns: minmax(0, .85fr) minmax(0, 1.15fr); align-items: center; gap: clamp(24px, 3.5vw, 48px); padding: clamp(22px, 3vw, 36px); border: 1px solid var(--border); border-radius: var(--radius); background: var(--surface); }
+.certificate-image { display: block; width: 100%; max-width: 380px; justify-self: center; border-radius: 8px; }
+.certificate-image img { width: 100%; height: auto; }
+.certificate-description .eyebrow { margin-bottom: 10px; }
+.certificate-description h3 { font-size: clamp(24px, 2.6vw, 32px); font-weight: 500; letter-spacing: -.035em; margin-bottom: 16px; }
+.certificate-description > p:not(.eyebrow) { color: var(--secondary); font-size: 15px; line-height: 1.7; margin-bottom: 16px; }
+.certificate-description .button { min-height: 44px; padding: 10px 18px; }
+.certificate-skills { display: flex; flex-wrap: wrap; gap: 8px; list-style: none; padding: 0; margin: 0 0 18px; }
+.certificate-skills li { font: 10px/1.7 var(--mono); color: var(--accent-readable); background: var(--bg-secondary); border: 1px solid var(--border); border-radius: 4px; padding: 5px 9px; overflow-wrap: anywhere; }
+@media (max-width: 800px) {
+  .certificate-card { grid-template-columns: 1fr; }
+  .certificate-image { max-width: 300px; }
+}
 
 /* Hero — editorial identity and a living data structure */
 .principal { display: grid; grid-template-columns: 1.06fr 1fr; align-items: center; gap: 20px; min-height: 880px; padding-top: 156px; padding-bottom: 116px; isolation: isolate; }

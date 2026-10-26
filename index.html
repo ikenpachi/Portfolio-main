@@ -24,7 +24,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
 
-  <link rel="stylesheet" href="./css/styles.css?v=b1e43a7e9b74" />
+  <link rel="stylesheet" href="./css/styles.css?v=586d57743e38" />
 </head>
 
 <body>
@@ -34,7 +34,8 @@
       <p class="brand"><a href="#home"><span class="brand-symbol" aria-hidden="true">[c]</span> CORROSIVO<span class="brand-dot">●</span></a></p>
       <ul data-menu="list" id="menu">
         <li><a href="#home">01 / Início</a></li><li><a href="#sobre">02 / Sobre</a></li>
-        <li><a href="#experiencia">03 / Experiência</a></li><li><a href="#projetos">04 / Projetos</a></li>
+        <li><a href="#experiencia">03 / Experiência</a></li><li><a href="#certificacoes">04 / Certificações</a></li>
+        <li><a href="#projetos">05 / Projetos</a></li>
       </ul>
       <button class="theme-toggle" data-theme-toggle type="button" aria-label="Alternar tema" aria-pressed="false" hidden>◑ TEMA</button>
       <button data-menu="button" type="button" aria-controls="menu" aria-expanded="false" aria-label="Abrir menu">MENU +</button>
@@ -253,8 +254,29 @@
         </li>
       </ol>
     </section>
+    <section class="certificacoes" id="certificacoes" data-anime="js-scroll" aria-labelledby="certifications-title">
+      <p class="eyebrow">04 / CERTIFICATIONS.LOG</p>
+      <h2 class="section-title" id="certifications-title">Certificações<span class="accent">.</span></h2>
+      <article class="certificate-card" aria-labelledby="sywp-title">
+        <a class="certificate-image" href="./assets/certificate_sywp.png" target="_blank" rel="noopener noreferrer" aria-label="Ampliar imagem do certificado SYWP da SOLYD">
+          <img src="./assets/certificate_sywp.png" alt="Imagem do certificado SYWP — Solyd Wireless Pentester, da SOLYD" width="600" height="482" loading="lazy" />
+        </a>
+        <div class="certificate-description">
+          <p class="eyebrow">SOLYD / WIRELESS SECURITY</p>
+          <h3 id="sywp-title">SYWP — Solyd Wireless Pentester</h3>
+          <p>A certificação SYWP da SOLYD comprova conhecimentos avançados e habilidades práticas em pentest de redes sem fio. O exame prático de 8 horas avalia reconhecimento, ataques aos protocolos WEP, WPA, WPA2, WPA Enterprise e WPA3, exploração de WPS e técnicas de pós-exploração em infraestruturas Wi-Fi.</p>
+          <p>A avaliação inclui um relatório de pentest com os procedimentos executados, as vulnerabilidades identificadas e recomendações para fortalecer a segurança de redes wireless corporativas.</p>
+          <ul class="certificate-skills" aria-label="Habilidades da certificação SYWP">
+            <li>#wifi-hacking</li>
+            <li>#wifi-security</li>
+            <li>#network-sniffing</li>
+          </ul>
+          <a class="button button-secondary" href="https://lnkd.in/p/dp8WxRid" target="_blank" rel="noopener noreferrer">Ver certificado <span aria-hidden="true">↗</span></a>
+        </div>
+      </article>
+    </section>
     <section class="projetos" id="projetos" data-anime="js-scroll">
-      <p class="eyebrow">04 / PROJECT.LOG</p><h2 class="section-title">Código em prática<span class="accent">.</span></h2><p class="section-intro">Estudos de segurança, desenvolvimento e experimentação. Do conceito ao código.</p>
+      <p class="eyebrow">05 / PROJECT.LOG</p><h2 class="section-title">Código em prática<span class="accent">.</span></h2><p class="section-intro">Estudos de segurança, desenvolvimento e experimentação. Do conceito ao código.</p>
       <div class="projetos__wrapper">
         <section class="projetos__card">
           <div class="project-meta"><span>01 / RED TEAM / PYTHON</span><span aria-hidden="true">↗</span></div><a class="project-cover cover-c2" href="https://github.com/ikenpachi/Command-and-Control" target="_blank" rel="noopener noreferrer" aria-label="Abrir repositório HarpiaC2"><span>RED TEAM / 01</span><strong>HARPIA<br>C2<span class="accent">_</span></strong><span>CLIENT ←→ SERVER</span></a><h2>HarpiaC2 / Command and Control</h2><p>Prova de conceito educacional de Command and Control em Python. Comunicação cliente-servidor via sockets, múltiplas conexões e criptografia AES com troca de chaves Diffie-Hellman.</p><span>Python / socket / cryptography<br>PoC documentada · atualização: 04 jun. 2025</span><a href="https://github.com/ikenpachi/Command-and-Control" target="_blank" rel="noopener noreferrer"><div class="projetos__card-button">Repositório</div></a></section>
