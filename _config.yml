@@ -1,4 +1,0 @@
-# O GitHub Pages/Jekyll não deve publicar referências nem arquivos temporários.
-exclude:
-  - references
-  - tmp
